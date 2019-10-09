@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, H1, Text, Button } from "native-base";
+import { Container, Text, Button } from "native-base";
 
 export default function Home(props) {
   return (
@@ -8,8 +8,8 @@ export default function Home(props) {
       <Button onPress={() => props.navigation.navigate("BankListScreen")}>
         <Text>View</Text>
       </Button>
-      <Text>IDs</Text>
-      <Button onPress={() => props.navigation.navigate("IDsListScreen")}>
+      <Text>Passports</Text>
+      <Button onPress={() => props.navigation.navigate("PassportListScreen")}>
         <Text>View</Text>
       </Button>
     </Container>
